@@ -3,7 +3,7 @@ $('.taskinput').keypress(function (e) {
  if(key == 13)  // the enter key code
   {
     var answer = $("input[name=input-text]").val();
-    var currentDiv = $('<div class="col-sm-4 input-lg item">' + answer + '</div>')
+    var currentDiv = $('<div class="col-sm-4 item">' + answer + '</div>')
     $('.tasks').append(currentDiv);
   }
 var safeColors = ['00','33','66','99','cc','ff'];
