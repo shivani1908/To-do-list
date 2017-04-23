@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.to-do {
+  text-align: center;
+}
+
+.heading {
+  font-size: 3em;
+  color: Crimson;
+  font-family: Lato, sans-serif;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.input input {
+  font-family: Josefin Sans, sans-serif;
+  width: 70%;
+  border-radius: 5px;
+}
+
+.tasks {
+  margin: 20px;
+}
+
+.item {
+  display: inline-block;
+  float:left;
+  height:auto;
+  margin:10px;
+  text-align: center;
+  padding:1em;
+  overflow: hidden;
+  word-wrap: break-word;
+  color: white;
+  font-family: Josefin Sans, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
