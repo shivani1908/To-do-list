@@ -23,7 +23,8 @@
   margin: 20px;
 }
 
-.item {
+
+.innerDiv {
   display: inline-block;
   height:auto;
   margin:10px;
